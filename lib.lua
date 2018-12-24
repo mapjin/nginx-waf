@@ -35,7 +35,9 @@ function get_rule(rulefilename)
     end
     RULE_TABLE = {}
     for line in RULE_FILE:lines() do
-        table.insert(RULE_TABLE,line)
+        --根据空格分隔字符串
+        local result = line:split(' ')
+        table.insert(RULE_TABLE,result[0])--只取第一个分隔字符ip段
     end
     RULE_FILE:close()
     return(RULE_TABLE)
