@@ -29,16 +29,16 @@ config_post_check = "on"
 --config waf output redirect/html
 config_waf_output = "html"
 --if config_waf_output ,setting url
-config_waf_redirect_url = "http://39.106.45.213:81"
+config_waf_redirect_url = "IP Address"
 config_output_html=[[
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="zh-cn" />
-<title>ÍøÕ¾·À»ğÇ½</title>
+<title>ç½‘ç«™é˜²ç«å¢™</title>
 </head>
 <body>
-<h1 align="center"> ÄúÒÑ´¥·¸°²È«¹æÔò£¬Çë×¢ÒâÄúµÄĞĞÎª¡£
+<h1 align="center"> æ‚¨å·²è§¦çŠ¯å®‰å…¨è§„åˆ™ï¼Œè¯·æ³¨æ„æ‚¨çš„è¡Œä¸ºã€‚
 </body>
 </html>
 ]]
