@@ -15,4 +15,8 @@
 --日志记录为JSON格式，便于日志分析，例如使用ELKStack进行攻击日志收集、存储、搜索和展示。<br>
 --对POST和GET的过滤<br>
 
-10月22日：修正了POST过滤的BUG
+2018年10月22日：修正了POST过滤的BUG
+
+2019年5月8日：增加redis模块支持
+             需要在nginx配置共享内存区域
+             如：lua_shared_dict ip_blacklist 1m;
